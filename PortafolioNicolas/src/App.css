@@ -1,0 +1,24 @@
+/* Asegúrate de que el body y html ocupen toda la pantalla */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Contenedor principal */
+.app {
+  display: flex;
+  flex-direction: column; /* Para que las secciones se coloquen en columna */
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+  width: 100vw; /* Ocupa todo el ancho de la ventana */
+  background-color: #2E8B57; /* Color de fondo verde */
+  color: white; /* Color de texto para que contraste con el fondo */
+}
+
+/* Asegúrate de que las secciones ocupen todo el espacio disponible */
+section {
+  width: 100%;
+  padding: 20px; /* Ajusta según tus preferencias */
+  box-sizing: border-box; /* Incluye el padding en el tamaño total */
+}

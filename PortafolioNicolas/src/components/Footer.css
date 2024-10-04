@@ -1,0 +1,32 @@
+footer {
+  background-color: #2E8B57;
+  padding: 40px 0;
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 2rem;
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer ul li a {
+  font-size: 2rem;
+  color: #E0E0E0;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #8FBC8F;
+  transform: scale(1.2);
+  text-shadow: 0 0 10px #8FBC8F;
+}
+
+

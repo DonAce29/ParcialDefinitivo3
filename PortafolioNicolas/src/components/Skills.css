@@ -1,0 +1,59 @@
+#skills {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #8FBC8F; /* Fondo verde que combina */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6); /* Sombra para dar profundidad */
+  }
+  
+  #skills h2 {
+    font-size: 2.5rem;
+    color: #fff; /* Color blanco para el título */
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px #fff; /* Sombra blanca para el texto */
+  }
+  
+  .skills-container {
+    display: flex; /* Usa flexbox para el diseño */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 40px; /* Espacio entre las dos categorías */
+  }
+  
+  .skills-category {
+    background-color: #2E8B57; /* Fondo para las categorías */
+    color: #E0E0E0; /* Color del texto */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; /* Ancho fijo para las categorías */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Sombra para dar profundidad */
+    transition: transform 0.3s ease; /* Transición suave */
+  }
+  
+  .skills-category:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al pasar el cursor */
+  }
+  
+  .skills-category h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #fff; /* Color del título */
+  }
+  
+  .skills-category ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-category li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    position: relative;
+    padding: 8px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave */
+  }
+  
+  .skills-category li:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo claro al pasar el cursor */
+  }
+  
